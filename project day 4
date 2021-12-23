@@ -1,0 +1,106 @@
+<!-- 미완성입니다 ㅠ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이병준의 카카오톡 프로필 화면</title>
+    <style>
+        .backphoto {
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FvMpVa%2FbtqCQ4YGsFk%2FZ80KjeEhJppmyJFxpVHc2k%2Fimg.jpg');
+            background-position: center;
+            background-size: cover;
+            width: auto;
+            height: 500px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .font {
+            color: white;
+            font-size: medium;
+            margin: auto;
+            padding: 40px;
+        }
+
+        .all {
+            background-color: red;
+            width: 480px;
+            height: 800px;
+            margin: auto;
+        }
+
+        .font1 {
+            color: black;
+            font-size: 20px;
+            margin: auto;
+            font-style: initial;
+        }
+
+        .contents {
+            background-color: green;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .profilephoto {
+            background-image : url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMDFfMjY2%2FMDAxNjE0NTc2ODI5MDcw.yjLLUz5bGoxrz3Iepov0ZjtU1bag-okL3i0SGMi4VqYg.Mc18sKRmg7aCdUsXgfkpm_Pk6UKrn3krdP2w5_fPc-gg.JPEG.dmsals5131%2FIMG_0970.JPG&type=sc960_832');
+            background-color: red;
+        }
+
+        .box {
+            background-color: gold;
+            width: 150px;
+            height: 150px;
+            border-radius: 70%;
+            overflow: hidden;
+            margin : 10px auto auto auto;
+        }
+
+        .hr {
+            size: 5px;
+            width: 30px;
+            color: gray;
+        }
+        .hrstyle{
+            height: 1px;
+        }
+        .h1{
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+<div class='all'>
+    <div class='backphoto'>
+        <div class="hrstyle">
+            <hr class=hr>
+        </div>
+        <div class= 'h1'>
+            <h1 class='font'>안녕하세요 저는 또치입니다! 저는 아프리카에서 온 암컷 타조에요. 원래는 라스베가스 서커스단에서 일했는데, 너무 힘들어서 관두고 둘리 일당에 합류했답니다!</h1>
+        </div>
+        <div class='box'>
+        <img class='profilephoto'>
+            </div>
+    </div>
+
+
+    <div class='contents'>
+        <strong class='font1'>또치</strong>
+    </div>
+</div>
+</body>
+
+
+</html>
