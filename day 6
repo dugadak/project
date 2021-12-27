@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>instagram</title>
+    <style>
+        @media (max-width: 800px) {
+            .desktop{
+                display:none;
+            }
+        }
+        @media(min-width: 800px){
+            .mobile{
+                display : none;
+            }
+        }
+        #logo {
+            width: 15%;
+        }
+
+        #logo1 {
+            width: 4%;
+            height: 2%;
+            margin: 2% 0 2% 5%;
+        }
+
+        #logo2 {
+            width: 4%;
+            height: 2%;
+            margin: 2% 5% 2% 0;
+        }
+
+        #head {
+            top: 0;
+            background-color: white;
+            position: fixed;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-bottom: 1px solid lightgray;
+        }
+
+        .head1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .all {
+            max-width: 800px;
+            margin: auto;
+        }
+        .story {
+
+            width: 5rem;
+            height: 5rem;
+            border-radius: 70%;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .user {
+            margin-left: 5%;
+            width: 4rem;
+            height: 4rem;
+            border-radius: 70%;
+            overflow: hidden;
+        }
+
+        .row {
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .storyrow
+        {
+            padding-left: 1%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            overflow: hidden;
+             background-color: #f6f6f6;
+        }
+
+        .storysize {
+            width: 100%
+        }
+
+        .usersize {
+            width: 100%
+        }
+
+        .userarray {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 1%;
+            margin-top:1%;
+
+        }
+
+        .more {
+            width: 5%;
+            margin: auto 5% auto auto;
+        }
+
+        .favorite {
+            width: 4%;
+            margin: 2% 5% 2% auto;
+
+        }
+
+        .three {
+            margin: 2% 0 2% 5%;
+            width: 22%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .like {
+            margin-left: 3%;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 70%;
+            overflow: hidden;
+        }
+
+        .all .section {
+            padding-top: 7%;
+            padding-bottom: 7%;
+        }
+
+        .footer {
+            padding: 1% 0 1% 0;
+            max-width: 800px;
+            width: 100%;
+            bottom: 0;
+            background-color: white;
+            position: fixed;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 5%;
+            border-top: 1px solid lightgray;
+        }
+        .story-wrapper{
+            width: auto;
+            margin: 2.5% 3.2%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .line{
+            border-top: 1px solid lightgray;
+        }
+        #desktop-head{
+            width: 100%;
+            height: 7%;
+            top: 0;
+            position: fixed;
+            display: flex;
+            flex-direction: row;
+            border-bottom: 1px solid lightgray;
+        }
+        #desktop-headlogo{
+            height: 100%;
+            top: 0;
+            display: flex;
+            flex-direction: row;
+            margin-left: 15%;
+        }
+        #desktop-headfive{
+            background-color: red;
+            height: 80%;
+            top: 0;
+            width: 30%;
+            margin : auto 15% auto auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        #more1{
+            margin: auto auto auto 0;
+            height: 20%;
+        }
+    </style>
+</head>
+
+<body>
+<div>
+<div class = mobile>
+    <div id="head">
+        <img src="images/camera@3x.png" id="logo1">
+        <img src="images/insta-logo.png" id="logo">
+        <img src="images/dm@3x.png" id="logo2">
+    </div>
+    <div class = 'all'>
+    <div class = 'section'>
+        <div class='storyrow'>
+            <div class = 'story-wrapper'>
+                <div class='story'>
+                    <img src="images/tree.jpg" class='storysize'>
+                </div>
+                <p style="margin: 0 auto">내 스토리</p>
+            </div>
+            <div class = 'story-wrapper'>
+                <div class='story'>
+                    <img src="images/tree.jpg" class='storysize'>
+                </div>
+                <p style="margin: 0 auto">내 스토리</p>
+            </div>
+            <div class = 'story-wrapper'>
+                <div class='story'>
+                    <img src="images/tree.jpg" class='storysize'>
+                </div>
+                <p style="margin: 0 auto">내 스토리</p>
+            </div>
+            <div class = 'story-wrapper'>
+                <div class='story'>
+                    <img src="images/tree.jpg" class='storysize'>
+                </div>
+                <p style="margin: 0 auto">내 스토리</p>
+            </div>
+            <div class = 'story-wrapper'>
+                <div class='story'>
+                    <img src="images/tree.jpg" class='storysize'>
+                </div>
+                <p style="margin: 0 auto">내 스토리</p>
+            </div>
+            <div class = 'story-wrapper'>
+                <div class='story'>
+                    <img src="images/tree.jpg" class='storysize'>
+                </div>
+                <p style="margin: 0 auto">내 스토리</p>
+            </div>
+            <div class = 'story-wrapper'>
+                <div class='story'>
+                    <img src="images/tree.jpg" class='storysize'>
+                </div>
+                <p style="margin: 0 auto">내 스토리</p>
+            </div>
+            <div class = 'story-wrapper'>
+                <div class='story'>
+                    <img src="images/tree.jpg" class='storysize'>
+                </div>
+                <p style="margin: 0 auto">내 스토리</p>
+            </div>
+            </div>
+        <div class = 'line'>
+            <div class='userarray'>
+                <div class='user'>
+                    <img src="images/tree.jpg" class='usersize'>
+                </div>
+                <p style="margin: auto auto auto 2%">이용자</p>
+                <div class='more'>
+                    <img src="images/more@3x.png" class="usersize">
+                </div>
+            </div>
+            <div>
+                <img src="images/tree.jpg" style="width: 100%">
+            </div>
+            <div class="head1">
+                <div class='three'>
+                    <img src="images/like@3x.png" style="margin : 2% 0 2% 0">
+                    <img src="images/comment@3x.png" style="margin : 2% 0 2% 0">
+                    <img src="images/dm@3x.png" style="margin : 2% 0 2% 0">
+                </div>
+                <div class="favorite">
+                    <img src="images/favorite@3x.png" style="width : 100%">
+                </div>
+            </div>
+            <div class='userarray'>
+                <div class='like'>
+                    <img src="images/tree.jpg" class='usersize'>
+                </div>
+                <p style="margin: auto auto auto 1%">이용자님 외 6,671명이 좋아합니다</p>
+            </div>
+            <div>
+                <p style="margin: auto auto 3% 3%">이용자 안녕하세요</p>
+            </div>
+
+            <div>
+                <p style="margin-left: 3%">8시간 전</p>
+            </div>
+        </div>
+
+        <div class = 'line'>
+            <div class='userarray'>
+                <div class='user'>
+                    <img src="images/tree.jpg" class='usersize'>
+                </div>
+                <p style="margin: auto auto auto 2%">이용자</p>
+                <div class='more'>
+                    <img src="images/more@3x.png" class="usersize">
+                </div>
+            </div>
+            <div>
+                <img src="images/tree.jpg" style="width: 100%">
+            </div>
+            <div class="head1">
+                <div class='three'>
+                    <img src="images/like@3x.png" style="margin : 2% 0 2% 0">
+                    <img src="images/comment@3x.png">
+                    <img src="images/dm@3x.png">
+                </div>
+                <div class="favorite">
+                    <img src="images/favorite@3x.png" style="width : 100%">
+                </div>
+            </div>
+            <div class='userarray'>
+                <div class='like'>
+                    <img src="images/tree.jpg" class='usersize'>
+                </div>
+                <p style="margin: auto auto auto 1%">이용자님 외 6,671명이 좋아합니다</p>
+            </div>
+            <div>
+                <p style="margin: auto auto 3% 3%">이용자 안녕하세요</p>
+            </div>
+
+            <div>
+                <p style="margin-left: 3%">8시간 전</p>
+            </div>
+        </div>
+        <div class = 'line'>
+        </div>
+        <div class = 'footer'>
+            <div class="row">
+                <img src="images/home@3x.png">
+                <img src="images/search@3x.png">
+                <img src="images/trending@3x.png">
+                <img src="images/like@3x.png">
+                <img src="images/home@3x.png">
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+<div class = desktop>
+    <div id = 'desktop-head'>
+        <div id = 'desktop-headlogo'>
+            <img src="images/insta-logo.png">
+        </div>
+        <div id = 'desktop-headfive'>
+            <img src="images/home@3x.png">
+            <img src="images/dm@3x.png">
+            <img src="images/trending@3x.png">
+            <img src="images/like@3x.png">
+            <img src="images/more@3x.png" id = 'more1'>
+        </div>
+
+    </div>
+    <div class = 'all'>
+<div class = 'section'>
+    <div class='storyrow'>
+        <div class = 'story-wrapper'>
+            <div class='story'>
+                <img src="images/tree.jpg" class='storysize'>
+            </div>
+            <p style="margin: 0 auto">내 스토리</p>
+        </div>
+        <div class = 'story-wrapper'>
+            <div class='story'>
+                <img src="images/tree.jpg" class='storysize'>
+            </div>
+            <p style="margin: 0 auto">내 스토리</p>
+        </div>
+        <div class = 'story-wrapper'>
+            <div class='story'>
+                <img src="images/tree.jpg" class='storysize'>
+            </div>
+            <p style="margin: 0 auto">내 스토리</p>
+        </div>
+        <div class = 'story-wrapper'>
+            <div class='story'>
+                <img src="images/tree.jpg" class='storysize'>
+            </div>
+            <p style="margin: 0 auto">내 스토리</p>
+        </div>
+        <div class = 'story-wrapper'>
+            <div class='story'>
+                <img src="images/tree.jpg" class='storysize'>
+            </div>
+            <p style="margin: 0 auto">내 스토리</p>
+        </div>
+        <div class = 'story-wrapper'>
+            <div class='story'>
+                <img src="images/tree.jpg" class='storysize'>
+            </div>
+            <p style="margin: 0 auto">내 스토리</p>
+        </div>
+        <div class = 'story-wrapper'>
+            <div class='story'>
+                <img src="images/tree.jpg" class='storysize'>
+            </div>
+            <p style="margin: 0 auto">내 스토리</p>
+        </div>
+        <div class = 'story-wrapper'>
+            <div class='story'>
+                <img src="images/tree.jpg" class='storysize'>
+            </div>
+            <p style="margin: 0 auto">내 스토리</p>
+        </div>
+        </div>
+    <div class = 'line'>
+        <div class='userarray'>
+            <div class='user'>
+                <img src="images/tree.jpg" class='usersize'>
+            </div>
+            <p style="margin: auto auto auto 2%">이용자</p>
+            <div class='more'>
+                <img src="images/more@3x.png" class="usersize">
+            </div>
+        </div>
+        <div>
+            <img src="images/tree.jpg" style="width: 100%">
+        </div>
+        <div class="head1">
+            <div class='three'>
+                <img src="images/like@3x.png" style="margin : 2% 0 2% 0">
+                <img src="images/comment@3x.png" style="margin : 2% 0 2% 0">
+                <img src="images/dm@3x.png" style="margin : 2% 0 2% 0">
+            </div>
+            <div class="favorite">
+                <img src="images/favorite@3x.png" style="width : 100%">
+            </div>
+        </div>
+        <div class='userarray'>
+            <div class='like'>
+                <img src="images/tree.jpg" class='usersize'>
+            </div>
+            <p style="margin: auto auto auto 1%">이용자님 외 6,671명이 좋아합니다</p>
+        </div>
+        <div>
+            <p style="margin: auto auto 3% 3%">이용자 안녕하세요</p>
+        </div>
+
+        <div>
+            <p style="margin-left: 3%">8시간 전</p>
+        </div>
+    </div>
+
+    <div class = 'line'>
+        <div class='userarray'>
+            <div class='user'>
+                <img src="images/tree.jpg" class='usersize'>
+            </div>
+            <p style="margin: auto auto auto 2%">이용자</p>
+            <div class='more'>
+                <img src="images/more@3x.png" class="usersize">
+            </div>
+        </div>
+        <div>
+            <img src="images/tree.jpg" style="width: 100%">
+        </div>
+        <div class="head1">
+            <div class='three'>
+                <img src="images/like@3x.png" style="margin : 2% 0 2% 0">
+                <img src="images/comment@3x.png">
+                <img src="images/dm@3x.png">
+            </div>
+            <div class="favorite">
+                <img src="images/favorite@3x.png" style="width : 100%">
+            </div>
+        </div>
+        <div class='userarray'>
+            <div class='like'>
+                <img src="images/tree.jpg" class='usersize'>
+            </div>
+            <p style="margin: auto auto auto 1%">이용자님 외 6,671명이 좋아합니다</p>
+        </div>
+        <div>
+            <p style="margin: auto auto 3% 3%">이용자 안녕하세요</p>
+        </div>
+
+        <div>
+            <p style="margin-left: 3%">8시간 전</p>
+        </div>
+    </div>
+    <div class = 'line'>
+    </div>
+    <div class = 'footer'>
+        <div class="row">
+            <img src="images/home@3x.png">
+            <img src="images/search@3x.png">
+            <img src="images/trending@3x.png">
+            <img src="images/like@3x.png">
+            <img src="images/home@3x.png">
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
